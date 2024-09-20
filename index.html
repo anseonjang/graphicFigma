@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title> 이름 - PHOTOSHOP, ILLUSTRATOR, FIGMA  </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #ddd;
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            margin: 0 auto;
+            width: 600px;
+        }
+
+        div h1 {
+            font-family: "Julius Sans One", sans-serif;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        div p {
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        div p a {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div p a img {
+            width: 600px;
+            display: block;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* span 텍스트 */
+        div p span {
+            background-color: #000;
+            color: #fff; 
+            padding: 10px 20px; 
+            border-radius: 50px; 
+            position: absolute; 
+            color: white;
+            font-size: 20px;
+            font-family: "Julius Sans One", sans-serif;
+            opacity: 0;
+            transition: opacity 0.5s ease; 
+            z-index: 2;
+        }
+
+        /* a에 레이어로 검정 투명도 추가 */
+        div p a::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0);
+            transition: background-color 0.3s ease;
+        }
+
+        /* 마우스 오버 시 투명도 50% 적용 및 텍스트 나타남 */
+        div p a:hover::after {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        div p a:hover span {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>ANSEON DESIGN PROJECT </h1>
+
+        <p>
+            <a href="./down/01.zip">
+                <img src="./images/01.jpg" alt="상처 많은 꽃이 향기롭다 - 포토샵 합성">
+                <span>PHOTOSHOP DOWNLOAD</span>
+
+            </a>
+        </p>
+        <p>
+            <a href="./down/02.zip">
+                <img src="./images/02.jpg" alt="불꽃글자 - 포토샵 합성">
+                <span>PHOTOSHOP DOWNLOAD</span>
+            </a>
+        </p>
+        <p>
+            <a href="./down/03.zip">
+                <img src="./images/03.jpg" alt="게임 배너 - 포토샵 합성">
+                <span>PHOTOSHOP DOWNLOAD</span>
+            </a>
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/04.jpg" alt="MBC 배너 - 포토샵 합성">
+                <span>PHOTOSHOP DOWNLOAD</span>
+            </a>
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/10.gif" alt="힐링곰 네온효과 - 포토샵 애니메이션">
+                <span>PHOTOSHOP DOWNLOAD</span>
+            </a>
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/11.gif" alt="오버액션토끼 - 포토샵 애니메이션">
+                <span>PHOTOSHOP DOWNLOAD</span>
+            </a>
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/12.gif" alt="스키장 배너 - 포토샵 애니메이션">
+                <span>PHOTOSHOP DOWNLOAD</span>
+            </a>
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/05.jpg" alt="RUMBLE - 일러스트">
+                <span>ILLUSTRATOR DOWNLOAD</span>
+            </a>
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/06.jpg" alt="힐링곰3D - 일러스트">
+                <span>ILLUSTRATOR DOWNLOAD</span>
+            </a>
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/07.jpg" alt="3배너 - 일러스트 ">
+                <span>ILLUSTRATOR DOWNLOAD</span>
+            </a>
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/08.jpg" alt="2020로고 - 일러스트">
+                <span>ILLUSTRATOR DOWNLOAD</span>
+            </a>
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/09.jpg" alt="2020 레인보우 로고 - 일러스트">
+                <span>ILLUSTRATOR DOWNLOAD</span>
+            </a>
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/13.jpg" alt="황금비율로고 - 일러스트">
+                <span>ILLUSTRATOR DOWNLOAD</span>
+            </a>
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/14.gif" alt="네온 온오프 버튼 - 피그마">
+                <span>FIGMA DOWNLOAD</span> 
+            </a>
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/15.gif" alt="카카오택시 앱 - 피그마">
+                <span>FIGMA DOWNLOAD</span>
+            </a>
+        </p>
+        
+        <p>
+            <a href="#">
+                <img src="./images/16.gif" alt="카카오택시 앱 - 피그마">  
+                <span>FIGMA DOWNLOAD</span>
+            </a> 
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/17.gif" alt="게임 앱 - 피그마">  
+                <span>FIGMA DOWNLOAD</span>
+            </a> 
+        </p>
+        <p>
+            <a href="#">
+                <img src="./images/18.gif" alt="아즈키 앱 - 피그마">  
+                <span>FIGMA DOWNLOAD</span>
+            </a> 
+        </p>
+       
+        <p>
+            <a href="#">
+                <img src="./images/19.gif" alt="쿠팡 앱 - 피그마">  
+                <span>FIGMA DOWNLOAD</span>
+            </a> 
+        </p>
+       
+    </div>
+</body>
+
+</html>
